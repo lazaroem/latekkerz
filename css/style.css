@@ -831,6 +831,20 @@ button {
     align-items: center;
 }
 
+form .box-1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 input {
+    border: none;
+    background: none;
+}
+
+
+
 /*About Page*/
 
 .about-showcase img{
