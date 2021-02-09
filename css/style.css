@@ -843,6 +843,13 @@ form .box-1 {
     background: none;
 }
 
+.box-1 button {
+    border: none;
+    color:black;
+    background: none;
+    text-align: center;
+    padding: 0;
+}
 
 
 /*About Page*/
