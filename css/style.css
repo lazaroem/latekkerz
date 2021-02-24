@@ -999,9 +999,13 @@ form .box-1 {
     grid-gap: 4rem;
     padding-bottom: 5%;
 }
+.intro-des .intro-img{
+    align-self: start;
+}
+
 
 .intro-des img{
-    width: 700px;
+    width: 800px;
     height: 600px;
     align-self: start;
     border-radius: 15px;
