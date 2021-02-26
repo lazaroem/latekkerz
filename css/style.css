@@ -247,7 +247,7 @@ nav ul li {
 .intro-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3rem;
+    grid-gap: 5rem;
     padding: 8rem 1rem;
     color: var(--secondary-color);
     background-color: white;
@@ -257,7 +257,6 @@ nav ul li {
     text-align: left;
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
 }
 
 .intro h1{
