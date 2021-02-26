@@ -280,7 +280,7 @@ nav ul li {
 }
 
 .intro-font {
-    font-size: 32px;
+    font-size: 32px !important;
 }
 
 .intro .box-1{
