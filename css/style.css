@@ -60,7 +60,7 @@ header {
 
 
 .intro-cut {
-    clip-path: polygon(0 0, 0 80%, 20% 100%, 100% 85%, 100% 0);
+    clip-path: polygon(0 0, 0 75%, 20% 96.5%, 100% 80%, 100% 0);
 }
 
 .navbar .logo img{
@@ -212,7 +212,7 @@ nav ul li {
 .showcase::after {
     content: '';
     position: absolute;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.4);
     left: 0;
     top: 0;
     width: 100%;
@@ -429,7 +429,7 @@ nav ul li {
 
 .card3 {
     background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1.5)),
-                url('../img/santa-clarita-central-park2.jpg') no-repeat center center;
+                url('../img/santa-clarita-central-park.jpg') no-repeat center center;
     background-size: cover;
 }
 
