@@ -247,7 +247,7 @@ nav ul li {
 .intro-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5rem;
+    grid-gap: 3rem;
     padding: 8rem 1rem;
     color: var(--secondary-color);
     background-color: white;
