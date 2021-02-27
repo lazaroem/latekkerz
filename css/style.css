@@ -60,7 +60,7 @@ header {
 
 
 .intro-cut {
-    clip-path: polygon(0 0, 0 75%, 20% 96.5%, 100% 80%, 100% 0);
+    clip-path: polygon(0 0, 0 75%, 20% 94.5%, 100% 80%, 100% 0);
 }
 
 .navbar .logo img{
