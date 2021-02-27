@@ -122,6 +122,8 @@ nav ul li {
 .navbar a:hover {
     cursor: pointer;
     border-bottom: solid var(--primary-color) 3px;
+    transform: ease-in-out;
+    transition: 0.1s;
 }
 
 .navbar .box-1 a:hover {
@@ -257,7 +259,7 @@ nav ul li {
     text-align: left;
     align-items: center;
     justify-content: center;
-    padding-left: 500px;
+    padding-left: 50px;
 }
 
 .intro h1{
