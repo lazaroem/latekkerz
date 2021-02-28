@@ -1294,3 +1294,156 @@ form .box-1 {
     box-shadow: 10px 10px 10px;
     border-radius: 5px;
 }
+
+/*Media Queries*/
+
+@media( max-width: 1150px ){
+    .intro-container{
+        padding: 20px 5px;
+    }
+    .showcase-video {
+    }
+    .container {
+        width: 100%;
+    }
+    .intro-font {
+        font-size: 20px !important;
+    }
+    .intro h1{
+        font-size: 56px;
+    }
+    .intro h3{
+        font-size: 42px;
+        padding: 20px 0;
+    }
+    .vid video{
+        width: 300px;
+    }
+    .card-container {
+        padding: 0 20px;
+    }
+    .card-container p {
+        font-size: 20px;
+    }
+    .location-section {
+        padding: 0;
+    }
+    .location-grid {
+        padding: 20px;
+    }
+    .gallery-des{
+        margin: 0;
+        padding: 0;
+    }
+    .gallery-des h3{
+        margin: 0;
+        font-size: 42px;
+    }
+    .gallery-des p{
+        font-size: 20px;
+    }
+    .image-card {
+        height: 300px;
+        width: 300px;
+    }
+    .ld {
+        padding: 0 10px;
+    }
+    .ld h3{
+        font-size: 28px;
+    }
+    .carousel .card {
+        height: 250px;
+        width: 250px;
+    }
+    .card.is-custom-selected {
+      width: 325px;
+      height: 325px;
+    }
+}
+
+
+@media( max-width: 720px ){
+    .intro-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .showcase-video {
+    }
+    .container {
+        width: 100%;
+    }
+    .intro-font {
+        font-size: 20px !important;
+    }
+    .intro h1{
+        font-size: 56px;
+    }
+    .intro h3{
+        font-size: 42px;
+        padding: 20px 0;
+    }
+
+    .vid video{
+        width: 250px;
+    }
+    .card-section {
+        padding: 20px 0;
+    }
+    .card-container {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+    .card-container p {
+        font-size: 20px;
+    }
+    .card-container .card {
+        padding: 0;
+    }
+    .location-section {
+        padding: 0;
+    }
+    .location-grid {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .gallery {
+        padding-bottom: 50px;
+    }
+    .gallery-des{
+        margin: 0;
+        padding: 0;
+    }
+    .gallery-des h3{
+        margin: 0;
+        font-size: 42px;
+    }
+    .gallery-des p{
+        font-size: 20px;
+    }
+    .image-card {
+        height: 275px;
+        width: 275px;
+    }
+    .ld {
+        padding: 0 10px;
+    }
+    .ld h3{
+        font-size: 28px;
+    }
+    .carousel .card {
+        height: 150px;
+        width: 150px;
+    }
+    .card.is-custom-selected {
+      width: 200px;
+      height: 200px;
+    }
+}
+
+@media( max-width: 1150px ){
+
+}
