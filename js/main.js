@@ -30,7 +30,12 @@ instaCards.forEach( (card, index) => {
 window.onscroll = function() { scrollFunction() };
 
 let navbar = document.getElementsByClassName('navbar')[0];
-console.log(navbar)
+let mobileMenu = document.getElementsByClassName('menu-icon')[0];
+let toggler = document.getElementsByClassName('menu-icon-button')[0];
+
+console.log(navbar);
+console.log(toggler);
+
 //Get offset position of navbar
 //let sticky = navbar.offsetHeight;
 
@@ -38,8 +43,10 @@ console.log(navbar)
 function scrollFunction(){
 	if(window.pageYOffset >= 600){
 		navbar.classList.add('sticky-navbar', 'drag-down');
+		mobileMenu.classList.add('menu-icon-scrolled', 'drag-down2');
 	}
 	else{
 		navbar.classList.remove('sticky-navbar', 'drag-down');
+		mobileMenu.classList.remove('menu-icon-scrolled', 'drag-down2');
 	}
 }
