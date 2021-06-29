@@ -2257,6 +2257,7 @@ form .box-1 {
     }
 }
 
+
 @media( max-height: 750px ){
     .showcase {
         height:87vh;
@@ -2280,5 +2281,60 @@ form .box-1 {
 @media( max-height: 750px ){
     .contact-showcase {
         height: 89vh;
+    }
+}
+
+
+@media( max-width: 400px ){
+    .navbar .logo img{
+        min-width: 120px;
+        width: 55px;
+        float: left;
+        padding: 10px 0;
+    }
+    .navbar {
+        height: 90px;
+    }
+    .menu-icon {
+        top: 30px;
+    }
+    .showcase-content {
+    font-size: 28px;
+    padding-top: 25px;
+    }
+    .intro p {
+    text-align:
+    left;
+    padding-left: 5%;
+    }
+    .intro h3 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .btn {
+        width: 70vw;
+    }
+    .vid video {
+        width: 200px;
+    }
+    .gallery-des {
+        margin: 0;
+        padding: 0 0 50px 5%;
+    }
+    .image-card {
+        height: 230px;
+        width: 230px;
+    }
+    .ld h3, .ld p{
+        font-size: 20px;
+    }
+    .basicLightbox {
+        padding: 5%;
+    }
+    .basicLightbox {
+        z-index: 10000 !important;
+    }
+    .contact-end .container h3 {
+        font-size: 28px;
     }
 }
